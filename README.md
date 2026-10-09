@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><img src="assets/tetris_icon.png" alt="AudioTETRIS logo" height="56" align="absmiddle"> AudioTETRIS</h1>
+<h1><img src="assets/tetris_icon.png" alt="AudioTETRIS logo" height="72" align="absmiddle"> AudioTETRIS</h1>
 
 ### Token Elimination via Transitional Importance Signals for Efficient Audio LLMs
 
@@ -52,7 +52,7 @@ The encoder layer used for $w_t$ is chosen label-free, as the layer where the di
 | ✂️ **Up to 75% of audio tokens removed** | while staying close to uncompressed accuracy |
 | 📈 **Gains grow with compression** | the gap over training-free baselines widens as compression gets more aggressive |
 
-On Qwen2-Audio at light compression, AudioTETRIS matches or beats the uncompressed model on several benchmarks. At 75% compression, LibriSpeech WER stays at 8.50 (vs. 4.61 uncompressed and 9.75 for the strongest baseline), while IEMOCAP, MMAU-mini and CoVoST2 remain within about 2 points of full-token performance. See the paper for full results, baselines (SpeechPrune, SparseVLM, LTBM) and ablations.
+On Qwen2-Audio at light compression, AudioTETRIS matches or beats the uncompressed model on several benchmarks. See the paper for full results, baselines (SpeechPrune, SparseVLM, LTBM) and ablations.
 
 ## Release plan
 
